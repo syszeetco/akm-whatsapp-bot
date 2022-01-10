@@ -1,7 +1,7 @@
 {
   "salutations": ["👋 ```Hey```", "👋 ```Hello```", "👋 ```hi```"],
   "disabled": "😢 ```Feature down```",
-  "success": "✅ ```Successful```",
+  "success": "",
   "noenv": "🛠️ ```Environment variable not set.```",
   "noapi": "🔑  ```API key not set```",
   "tag": "🌌 ```Reply to a media.```",
@@ -10,11 +10,11 @@
   "grouplimit": "🎫 ```Daily group credits exhausted.```",
   "userlimit": "💳 ```Daily credits exhausted.```",
   "limit": "💳 ```Daily credit used: ```",
-  "unknowncommand": "🤖 ```Invalid command```",
+  "unknowncommand": "",
 
   "error": {
-    "invalid": "🌐 ```Invalid link```",
-    "error": "❎ ```Error```"
+    "invalid": "",
+    "error": ""
   },
 
   "only": {

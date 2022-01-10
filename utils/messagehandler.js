@@ -172,9 +172,9 @@ exports.messagehandler = async (Bot) => {
     Bot.arg == "helloo" ||
     Bot.arg == "hellooo" ||
     Bot.arg == "hii" ||
-    Bot.arg == "hiii" ||
-    Bot.arg == "heyy" ||
-    Bot.arg == "heyyy"
+    Bot.arg == "assalam o alikum" ||
+    Bot.arg == "assalam" ||
+    Bot.arg == "aoa"
   ) {
     Bot.replytext(
       Bot.mess.salutations[
