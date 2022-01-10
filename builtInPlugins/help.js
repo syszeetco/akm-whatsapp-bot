@@ -135,26 +135,6 @@ module.exports = {
         "\n\n⚙️ *Bot version* : " +
         version;
       Bot.replytext(help);
-    } else {
-      if (!pluginsinfo[Bot.arg[1]])
-        return Bot.replytext(Bot.mess.unknowncommand);
-      if (prefix == undefined || !useprefix) prefix = "🎀";
-      let body =
-        "🔖 *Description* :\n" +
-        "```" +
-        pluginsinfo[Bot.arg[1]].desc +
-        "```\n\n" +
-        "📕 *Usage* :\n" +
-        prefix +
-        "```" +
-        pluginsinfo[Bot.arg[1]].usage +
-        "```\n\n" +
-        "📚 *Example* :";
-
-      pluginsinfo[Bot.arg[1]].eg.forEach((currentItem) => {
-        body += "\n```" + prefix + currentItem + "```";
-      });
-      Bot.replytext(body);
-    }
+    } 
   },
 };

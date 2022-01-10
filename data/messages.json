@@ -10,7 +10,6 @@
   "grouplimit": "🎫 ```Daily group credits exhausted.```",
   "userlimit": "💳 ```Daily credits exhausted.```",
   "limit": "💳 ```Daily credit used: ```",
-  "unknowncommand": "",
 
   "error": {
     "invalid": "",

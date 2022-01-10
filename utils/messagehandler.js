@@ -218,11 +218,5 @@ exports.messagehandler = async (Bot) => {
       count(Bot);
       return;
     }
-  } else if (
-    (Bot.isGroup && Bot.groupdata.useprefix) ||
-    (!Bot.isGroup && !Bot.isMedia)
-  ) {
-    Bot.replytext(Bot.mess.unknowncommand);
-    count(Bot);
-  }
+  } 
 };
